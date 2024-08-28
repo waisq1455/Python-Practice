@@ -1,0 +1,28 @@
+#1
+a=10
+if a==20:
+    print(a)
+
+else:
+    print(10+50)
+
+#2
+ATM = 5000
+if ATM==5000:
+    print("amount widroable 5000")
+elif ATM == 4000:
+    print("amount widroable 4000")
+elif ATM==3000:
+    print("amount widroable 3000")
+elif ATM ==2000:
+    print("amount widroable 2000")
+else:
+    print("Insufficent balance")
+
+#3
+age=int(input("enter value"))
+if age>=18:
+    print("You are eligible for voting")
+
+else:
+    print("You are not eligible")
