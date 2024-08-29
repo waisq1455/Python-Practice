@@ -1,14 +1,14 @@
-#Question: Write a program that uses nested if statements to determine if a person is eligible to apply for a job based on age and work experince
+#Write a program that uses nested if statements to determine if a year is a leap year.
 
-age = int(input("enter age "))
-work_experince= int(input("enter experince "))
+year= int(input("enter year for cheaking its leap year or not "))
 
-if age>=18:
-    if work_experince >=2:
-        print("you are eligible for this job")
-
+if year % 4 == 0:
+    if year % 100 == 0:
+        if year % 400 == 0:
+            print(f"{year} is a leap year")
+        else:
+            print(f"{year}is not leap year")
     else:
-        print("this job requird min 2 years of experince")
-
+        print(f"{year}is  leap year")
 else:
-    print("you under 18")
+    print(f"{year}is not leap year")
