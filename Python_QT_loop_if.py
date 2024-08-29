@@ -1,14 +1,14 @@
-#Write a program that uses nested if statements to determine if a year is a leap year.
+a= int(input("enter %"))
+if a>=35 and a<=49:
+    print("cong you pass")
+elif a>=50 and a<=59:
+    print("cong you pass in c division")
 
-year= int(input("enter year for cheaking its leap year or not "))
+elif a>=60 and a<=74:
+    print("cong you pass in first division")
 
-if year % 4 == 0:
-    if year % 100 == 0:
-        if year % 400 == 0:
-            print(f"{year} is a leap year")
-        else:
-            print(f"{year}is not leap year")
-    else:
-        print(f"{year}is  leap year")
+elif a>=75:
+    print("cong you pass in distiction ")
+
 else:
-    print(f"{year}is not leap year")
+    print("you are fail")
