@@ -1,24 +1,14 @@
-#Question: Write a program that uses nested if statements to determine if a person can drive based on age and whether they have a license
+#Question: Write a program that uses nested if statements to determine if a person is eligible to apply for a job based on age and work experince
 
-name = input("what is  your name ?")
-age= int(input("Enter your age "))
+age = int(input("enter age "))
+work_experince= int(input("enter experince "))
 
-if age >=18:
-    print("you are authorized for driving")
-
-else:
-    print("you are not authorized for driving ")
-
-
-#Question: Write a program that uses nested if statements to determine the price of a ticket based on age and membership status.
-
-age = int(input("enter age"))
-status= input("menber/not-member")
 if age>=18:
-    if status == "member":
-        print("your ticket price is 500")
-    
+    if work_experince >=2:
+        print("you are eligible for this job")
+
     else:
-        print("your ticket price is 700")
+        print("this job requird min 2 years of experince")
+
 else:
-     print("wrong entry")
+    print("you under 18")
