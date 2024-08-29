@@ -8,3 +8,17 @@ if age >=18:
 
 else:
     print("you are not authorized for driving ")
+
+
+#Question: Write a program that uses nested if statements to determine the price of a ticket based on age and membership status.
+
+age = int(input("enter age"))
+status= input("menber/not-member")
+if age>=18:
+    if status == "member":
+        print("your ticket price is 500")
+    
+    else:
+        print("your ticket price is 700")
+else:
+     print("wrong entry")
