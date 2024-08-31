@@ -138,6 +138,91 @@ else:
     print("string value not available")
 
 
+#Write a Python statement to increment a variable by 1 using the += operator.
+
+a=1
+a=a+1
+print(a)
+
+
+#Use the and operator to check if two conditions are true.
+
+a=10
+b=20
+
+if a==10 and b==20:
+    print("conditions are true")
+else:
+    print("conditions are not true")
+
+
+#Write a Python expression to calculate the remainder of dividing two numbers.
+
+num1=int(input("enter value"))
+num2=int(input("enter value"))
+remainder_of_dividing = num1/num2
+print(remainder_of_dividing)
+
+
+#Use the or operator to check if at least one of two conditions is true.
+a=10
+b=20
+c=40
+
+if a==10 or b==20 or c==10:
+    print("2 condition true")
+else:
+    print("false")
+
+#Write a Python expression to calculate the square of a number using the ** operator.
+
+a=int(input("enter value"))
+a=a**2
+print(a)
+
+
+#Use the > operator to check if a string is lexicographically greater than another.
+
+a=10
+if a>8:
+    print("a is grater")
+else:
+    print("a is not grater")
+
+
+#How do you assign a value to a variable in Python?
+
+a=10
+
+
+#Print a square of stars (*) of size 5.
+
+for x in range(6):
+    print("*"*x)
+
+
+
+'''2. Print the following pattern:
+1
+0 1
+0 1 2
+0 1 2 3
+0 1 2 3 4'''
+
+row = 6
+for i in range(row):
+    for j in range(i):
+        print(i,end=" ")
+    print(" ")
+
+
+
+
+
+
+
+
+
 
 
 
