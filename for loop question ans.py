@@ -85,20 +85,23 @@ for i in range(1,11):
     print(f"{num}*{i} = {num*i}")
 
 
-
 #Question: Write a program that uses nested if statements to classify a student's grade based on their marks.
 
 a= int(input("enter %"))
-if a>=35 and a<=49:
-    print("cong you pass")
-elif a>=50 and a<=59:
-    print("cong you pass in c division")
+if a>0:
+    if a>=35 and a<=49:
+        print("cong you pass C division")
+    elif a>=50 and a<=59:
+        print("cong you pass in B division")
 
-elif a>=60 and a<=74:
-    print("cong you pass in first division")
+    elif a>=60 and a<=74:
+        print("cong you pass in A division")
 
-elif a>=75:
-    print("cong you pass in distiction ")
+    elif a>=75:
+        print("cong you pass in distiction ")
+
+    else:
+        print("you are fail")
 
 else:
-    print("you are fail")
+    print("something wrong")
